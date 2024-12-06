@@ -1,4 +1,25 @@
-body {
-  margin: 0;
-  box-sizing: border-box;
+h1 {
+  display: inline;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-end;
+
+  height: 50px;
+  background-color: burlywood;
+}
+
+nav div {
+  font-size: 20px;
+  margin: 10px;
+  color: gray;
+}
+
+section {
+  display: flex;
 }
