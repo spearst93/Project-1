@@ -40,3 +40,7 @@ section {
 img{
   height: 100vh;
 }
+
+.product{
+  object-fit: cover;
+}
